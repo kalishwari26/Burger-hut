@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Hut - Savor the Best Burgers in Town</title>
+    <link href="https://cdn.jsdelivr.net/boxicons/2.0.7/css/boxicons.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Burger Hut Logo">
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#menu">Menu</a></li>
+                    <li class="nav-item"><a href="#contact">Locations</a></li>
+                    <li class="nav-item"><a href="#contact-form">Contact</a></li>
+                </ul>
+                <div class="search-box">
+                    
+                    <button type="submit"><i class='bx bx-search-alt-2' ></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Savor the Best Burgers in Town</h1>
+            <p class="hero-subtitle">Fresh, Juicy, and Delicious!</p>
+            <a href="#menu" class="hero-btn">Check Our Menu</a>
+        </div>
+        <!-- <ul class="hero-slider" data-hero-slider>
+
+            <li class="slider-item active" data-hero-slider-item>
+                <div class="slider-bg">
+                    <img src="hero-background4.jpg" width="1880" height="950" alt="" class="img-cover">
+                </div>
+
+                <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
+
+                <h1 class="display-1 hero-title slider-reveal">
+                    For the love of <br>
+                    delicious food</h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        Come with family & feel the joy of mouthwatering food 
+                    </p>
+
+                    <a href="#" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">View Our Menu</span>
+
+                        <span class="text text-2" aria-hidden="true">View Menu</span>
+                    </a>
+            </li> -->
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="menu-title" style="font-size: 2.5rem;">About Us</h2>
+                <p class="about-description">
+                    Welcome to Burger Hut, where we serve the juiciest and most delicious burgers in town. Our mission is to provide our customers with a memorable dining experience, using only the freshest ingredients and unique recipes. Whether you're looking for a quick bite or a place to hang out with friends and family, Burger Hut is the perfect spot.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="hero-background2.jpg" alt="About Us Image">
+            </div>
+        </div>
+
+        </section>
+
+
+<!-- menu  -->
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <div class="menu-categories">
+                    <div class="menu-category">
+                        <h1 class="menu-title" style="font-size: 2.5rem;">Our Menu</h1>
+                        <h3 class="category-title">Burgers</h3>
+                        <div class="menu-items">
+                            <button class="nav-btn prev-btn" onclick="showPrevMenuItem()"><i class='bx bx-chevron-left'></i></button>
+        
+                            <div class="menu-item">
+                                <img src="burger1.jpg" alt="Burger">
+                                <div class="item-details">
+                                    <h4 class="item-name">Classic Burger</h4>
+                                    <p class="item-description">Our signature beef patty with lettuce, tomato, onion, and special sauce.</p>
+                                    <p class="item-price">$9.99</p>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="burger2.jpg" alt="Burger">
+                                <div class="item-details">
+                                    <h4 class="item-name">Classic Burger</h4>
+                                    <p class="item-description">Our signature beef patty with lettuce, tomato, onion, and special sauce.</p>
+                                    <p class="item-price">$11.99</p>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="burger3.jpg" alt="Burger">
+                                <div class="item-details">
+                                    <h4 class="item-name">Classic Burger</h4>
+                                    <p class="item-description">Our signature beef patty with lettuce, tomato, onion, and special sauce.</p>
+                                    <p class="item-price">$10.99</p>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="burger4.jpg" alt="Burger">
+                                <div class="item-details">
+                                    <h4 class="item-name">Classic Burger</h4>
+                                    <p class="item-description">Our signature beef patty with lettuce, tomato, onion, and special sauce.</p>
+                                    <p class="item-price">$9.99</p>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="burger5.jpg" alt="Burger">
+                                <div class="item-details">
+                                    <h4 class="item-name">Classic Burger</h4>
+                                    <p class="item-description">Our signature beef patty with lettuce, tomato, onion, and special sauce.</p>
+                                    <p class="item-price">$8.99</p>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="burger6.jpg" alt="Burger">
+                                <div class="item-details">
+                                    <h4 class="item-name">Classic Burger</h4>
+                                    <p class="item-description">Our signature beef patty with lettuce, tomato, onion, and special sauce.</p>
+                                    <p class="item-price">$7.99</p>
+                                </div>
+                            </div>
+        
+                            <button class="nav-btn next-btn" onclick="showNextMenuItem()"><i class='bx bx-chevron-right'></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     
+<!-- offers  -->
+
+        <section id="specials" class="specials">
+            <h2 class="menu-title" style="font-size: 2.5rem; margin-left: 10%;">Specials / Offers</h2>
+                   
+            <p class="promotion-description" >Current deals, discounts, or seasonal specials.</p>
+            <div class="container">
+               
+                <div class="specials-content">
+                   
+                    <div class="cards">
+                        <div class="special-item">
+                            <img src="offer1.jpg" alt="Special 1">
+                            <div class="overlay">
+                                <div class="offer-details">60% OFF</div>
+                            </div>
+                        </div>
+                        <div class="special-item">
+                            <img src="offer2.jpg" alt="Special 2">
+                            <div class="overlay">
+                                <div class="offer-details">30% OFF</div>
+                            </div>
+                        </div>
+                        <div class="special-item">
+                            <img src="offer3.jpg" alt="Special 3">
+                            <div class="overlay">
+                                <div class="offer-details">50% OFF</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery -->
+
+            <section id="gallery" class="gallery">
+                <!-- <h2 class="menu-title" style="font-size: 2.5rem; margin-left: 10%;">Gallery</h2> -->
+                <div class="gallery-container">
+                    <div class="gallery-content">
+                        <h2 class="gallery-title">Signature Recipes</h2>
+                        <p class="gallery-description">
+                            Experience our signature burger recipes crafted by our expert chefs.
+                        </p>
+                    </div>
+                    <div class="gallery-image">
+                        <img src="signature-recipe.jpg" alt="Food Image">
+                    </div>
+                </div>
+                <div class="container-1">
+                    <div class="gallery-content-1">
+                        <h2 class="gallery-title-1">Delicious Burgers</h2>
+                        <p class="gallery-description-1">
+                            Enjoy our mouthwatering burger varieties made with premium ingredients.
+                        </p>
+                    </div>
+                    <div class="gallery-image-1">
+                        <img src="food1.jpg" alt="Food Image">
+                    </div>
+                </div>
+                <div class="gallery-container">
+                    <div class="gallery-content">
+                        <h2 class="gallery-title">Cozy Ambiance</h2>
+                        <p class="gallery-description">
+                            Relax and unwind in our cozy ambiance while savoring your favorite burger.
+                        </p>
+                    </div>
+                    <div class="gallery-image">
+                        <img src="gallery1.jpg" alt="Ambiance Image">
+                    </div>
+                </div>
+                <div class="container-1">
+                    <div class="gallery-content-1">
+                        <h2 class="gallery-title-1">Happy Customers</h2>
+                        <p class="gallery-description-1">
+                            Join our satisfied customers who love our burgers and friendly service.
+                        </p>
+                    </div>
+                    <div class="gallery-image-1">
+                        <img src="customers.jpg" alt="Customers Image">
+                    </div>
+                </div>
+        
+                </section>
+
+                <!-- Reviews/Testimonials -->
+                <section id="reviews" class="reviews">
+                    <div class="review-container">
+                        <h2 class="section-title">Customer Reviews</h2>
+                        <div class="review">
+                            <p class="review-quote">"Best burgers in town! Absolutely loved the ambiance and the friendly staff."</p>
+                            <div class="review-rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <p class="review-author">- John Doe, Yelp</p>
+                        </div>
+                        <div class="review">
+                            <p class="review-quote">"A delightful experience! The signature recipes are a must-try."</p>
+                            <div class="review-rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <p class="review-author">- Jane Smith, Google Reviews</p>
+                        </div>
+                        <!-- <div class="review">
+                            <p class="review-quote">"Fantastic food and cozy ambiance. I'll definitely be coming back!"</p>
+                            <div class="review-rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <p class="review-author">- Emily White, TripAdvisor</p>
+                        </div> -->
+                    </div>
+                </section>
+
+        <!-- contack -->
+
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-info">
+                    <div class="address">
+                        <h3 style="font-size: 30px">Our Location</h3>
+                        <p><i class='bx bxs-phone-call' ></i> (123) 456-7890</p>
+                        <p><i class='bx bxs-envelope' ></i> info@bergerhut.com</p>
+                        <p style="font-size: 20px"><i class='bx bx-current-location' ></i> 123 Burger Lane, Food Town, FL 12345</p>
+
+                        <div class="social-media">
+                            <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                            <a href="#"><i class='bx bxl-twitter' ></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373631531558!3d-37.81627937975192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5775c0c9d8a8a6b!2s123%20Burger%20Lane%2C%20Food%20Town%2C%20FL%2012345!5e0!3m2!1sen!2sus!4v1621612297262!5m2!1sen!2sus" 
+                            width="400" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                   
+                </div>
+                <div class="contact-form" id="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form action="submit-form.php" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- footer  -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul class="quick-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Follow Us</h3>
+                        <div class="social-media">
+                            <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                            <a href="#"><i class='bx bxl-twitter' ></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Newsletter</h3>
+                        <form class="newsletter-form" action="subscribe.php" method="post">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul class="legal-links">
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 BergerHut. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+            <i class='bx bx-chevrons-up' ></i>
+          </a>
+
+
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <script>
+            let currentPage = 0;
+            const menuItems = document.querySelectorAll('.menu-item');
+            const itemsPerPage = 3;
+            const totalPages = Math.ceil(menuItems.length / itemsPerPage);
+            const nextButton = document.querySelector('.next-btn');
+        
+            // Display the current page of menu items
+            function displayMenuItems() {
+                const startIndex = currentPage * itemsPerPage;
+                const endIndex = Math.min(startIndex + itemsPerPage, menuItems.length);
+        
+                menuItems.forEach((item, index) => {
+                    if (index >= startIndex && index < endIndex) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+        
+                // Disable next button if currentPage is the last page
+                nextButton.disabled = (currentPage >= totalPages - 1);
+            }
+        
+            function showNextMenuItem() {
+                if (currentPage < totalPages - 1) {
+                    currentPage++;
+                    displayMenuItems();
+                }
+            }
+        
+            function showPrevMenuItem() {
+                if (currentPage > 0) {
+                    currentPage--;
+                    displayMenuItems();
+                }
+            }
+        
+            displayMenuItems();
+
+
+
+            const header = document.querySelector("[data-header]");
+const backTopBtn = document.querySelector("[data-back-top-btn]");
+
+let lastScrollPos = 0;
+
+const hideHeader = function () {
+  const isScrollBottom = lastScrollPos < window.scrollY;
+  if (isScrollBottom) {
+    header.classList.add("hide");
+  } else {
+    header.classList.remove("hide");
+  }
+
+  lastScrollPos = window.scrollY;
+}
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY >= 50) {
+    header.classList.add("active");
+    backTopBtn.classList.add("active");
+    hideHeader();
+  } else {
+    header.classList.remove("active");
+    backTopBtn.classList.remove("active");
+  }
+});
+
+        </script>
+        
+        
+        
+</body>
+</html>
